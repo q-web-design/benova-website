@@ -36,7 +36,7 @@ export default function Home() {
                 height='664'
                 objectFit='contain'
               />
-              <div className='flex justify-center cursor-pointer mt-5'>
+              <div className='w-full sm:w-auto flex justify-center cursor-pointer mt-5 text-center'>
                 <a
                   href='mailto:didier.beyens@benova.be?subject=Meer info Berkenmei'
                   className='w-full bg-primary rounded-md font-bold text-white py-3 px-10 focus:outline-none sm:w-auto'
@@ -54,7 +54,7 @@ export default function Home() {
                 height='664'
                 objectFit='contain'
               />
-              <div className='flex justify-center cursor-pointer mt-5'>
+              <div className='w-full sm:w-auto flex justify-center cursor-pointer mt-5 text-center'>
                 <a
                   href='mailto:didier.beyens@benova.be?subject=Meer info Biekensstraat'
                   className='w-full bg-primary rounded-md font-bold text-white py-3 px-10 focus:outline-none sm:w-auto'
@@ -83,7 +83,7 @@ export default function Home() {
                 Neem gerust contact op met ons voor een antwoord op al uw vragen
                 of opmerkingen
               </p>
-              <div className='flex justify-center cursor-pointer'>
+              <div className='flex justify-center cursor-pointer text-center'>
                 <a
                   href='mailto:didier.beyens@benova.be'
                   className='w-full bg-white rounded-md font-bold text-primary py-3 px-10 focus:outline-none sm:w-auto'
