@@ -12,22 +12,15 @@ export default function Home() {
             <div className="relative h-16 w-72 md:w-1/5 md:h-24">
               <Image src="/logo.jpg" layout="fill" objectFit="contain" />
             </div>
-            <div className="text-center">
-              <p className="text-white font-bold text-3xl md:text-5xl">
-                <span className="text-white">Verkopen</span> en{" "}
-                <span className="text-white">verhuren</span>
-              </p>
-              <p className="text-white font-bold text-3xl md:text-5xl">van jou vastgoed</p>
-            </div>
           </div>
         </div>
       </div>
       <div>
         <div className="px-4 py-20 max-w-screen-xl mx-auto">
           <div className="space-y-10">
-            <div className="border-b-2 border-blue-50 pb-2">
+            {/* <div className="border-b-2 border-blue-50 pb-2">
               <p className="text-primary text-2xl font-bold sm:text-3xl">Toekomstige projecten</p>
-            </div>
+            </div> */}
             <div>
               <Image
                 className="block"
@@ -61,12 +54,11 @@ export default function Home() {
           />
           <div className="relative h-full w-full bg-gradient-to-t from-primary">
             <div className="max-w-screen-md mx-auto h-full px-8 py-10 space-y-5 flex flex-col justify-center">
-              <p className="text-2xl font-bold text-white text-center sm:text-3xl sm:text-4xl">
-                Wil jij ook iets verkopen of verhuren?
+              <p className="text-2xl font-bold text-white text-center sm:text-4xl">
+                Heb je vragen of interesse in een van onze projecten?
               </p>
               <p className="text-white text-center text-sm sm:text-base md:text-lg">
-                Neem gerust contact op met ons voor een antwoord op al uw vragen over het verkopen
-                of verhuren van jouw eigendom
+                Neem gerust contact op met ons voor een antwoord op al uw vragen of opmerkingen
               </p>
               <div className="flex justify-center">
                 <button className="w-full bg-white rounded-md font-bold text-primary py-3 px-10 focus:outline-none sm:w-auto">
@@ -113,7 +105,9 @@ export default function Home() {
               />
             </svg>
           </div>
-          <p className="text-white opacity-60">&#169; Qweb Design 2020</p>
+          <a href="https://www.qwebdesign.be/" className="text-white opacity-60">
+            &#169; Qweb Design 2020
+          </a>
         </div>
       </div>
     </div>
